@@ -13,18 +13,18 @@ from linebot.models import *
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('wdTa/TWHH284YHu3YYTwq8Ab8yXrOy50c/O8lBDBAIH8mDr2pjCNqZCg8s0JHLOOGzw43RzUuFbDZS58zPPiHrPumC5W7ssm3LICvPFpcJFaT4wSkVnkz4IHja8ZIZW7TR6kWcDfse+IJKK0JafdmQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('9e4af082be47f14728002c75937c2387')
+line_bot_api = LineBotApi('hDEXigBx3q22MD9N4c4k9h/7ql08sBMCUTAuhBAevphGCcbIJb65W0nik3BePY6w68ZBPb9dkjc/s+2znFz26qZrSiOSKCghglNRZJCnQe7NUHi+RGMIExGa0r+A3HGYMAVFZwctBTmuqyTyp2aDAAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('bc1445fa31789d24b3cebe96a69b5010')
 
 
 @app.route("/callback", methods=['POST'])
 def callback():
-    # get X-Line-Signature header value
+    #get X-Line-Signature header value
     signature = request.headers['X-Line-Signature']
 
     # get request body as text
     body = request.get_data(as_text=True)
-    # print("body:",body)
+    #print("body:",body)
     app.logger.info("Request body: " + body)
 
     # handle webhook body
@@ -38,11 +38,12 @@ def callback():
 
 def pattern_mega(text):
     patterns = [
-        'mega', 'mg', 'mu'
+        'mega','mg', 'mu'
     ]
     for pattern in patterns:
         if re.search(pattern, text, re.IGNORECASE):
             return True
+
 
 
 def digiroin():
@@ -81,7 +82,6 @@ def apple_news():
         content += '{}\n\n'.format(link)
     return content
 
-
 def technews():
     target_url = 'https://technews.tw/'
     print('Start opening Technews...')
@@ -114,6 +114,7 @@ def gironews():
         link - data['href']
         content += '{}\n{}\n\n'.format(title, link)
     return content
+
 
 
 @handler.add(MessageEvent, message=TextMessage)
@@ -312,4 +313,4 @@ def handle_message(event):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=80)
+    app.run(debug = True, port = 80)
