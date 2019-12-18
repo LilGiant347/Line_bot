@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae69a4c-b36a-4539-b5ac-b5a61a960428" name="Default Changelist" comment="" />
+    <list default="true" id="bae69a4c-b36a-4539-b5ac-b5a61a960428" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat_elan_line.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/line_chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/line_chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,10 +33,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/line-bot-sdk-python-master" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.chat_elan_line">
+  <component name="RunManager" selected="Python.line_chatbot">
     <configuration name="chat_elan_line" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Line_bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chat_elan_line" />
         <item itemvalue="Python.line_chatbot" />
+        <item itemvalue="Python.chat_elan_line" />
       </list>
     </recent_temporary>
   </component>
@@ -109,29 +117,37 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="445" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1576220052291" />
-    <state x="467" y="115" key="FileChooserDialogImpl" timestamp="1576228046613">
+    <state x="467" y="115" key="FileChooserDialogImpl" timestamp="1576563393145">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="467" y="115" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1576228046613" />
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1576222191223">
+    <state x="467" y="115" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1576563393145" />
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1576563396182">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576222191223" />
-    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1576222191223">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576563396182" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1576563396182">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576222191223" />
-    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1576222191223">
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576563396182" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1576563396182">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576222191223" />
-    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1576222191223">
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576563396182" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1576563396182">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576222191223" />
-    <state x="176" y="17" key="SettingsEditor" timestamp="1576228401824">
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576563396182" />
+    <state x="176" y="0" width="998" height="768" key="SettingsEditor" timestamp="1576561500482">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="176" y="17" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1576228401824" />
+    <state x="176" y="0" width="998" height="768" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1576561500482" />
+    <state x="379" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1576551313436">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="379" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1576551313436" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576554917772">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1576554917772" />
   </component>
 </project>
